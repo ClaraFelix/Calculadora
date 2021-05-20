@@ -1,0 +1,18 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var retangulo_1 = require("./retangulo");
+var quadrado_1 = require("./quadrado");
+var figuraComplexa_1 = require("./figuraComplexa");
+var quad1;
+quad1 = new quadrado_1.Quadrado(3);
+var quad2;
+quad2 = new quadrado_1.Quadrado(10);
+var retan1;
+retan1 = new retangulo_1.Retângulo(2, 7);
+var retan2;
+retan2 = new retangulo_1.Retângulo(5, 3);
+var figuras;
+figuras = [quad1, quad2, retan1, retan2];
+var figuraComplexa;
+figuraComplexa = new figuraComplexa_1.FiguraComplexa(figuras);
+console.log(figuraComplexa_1.FiguraComplexa);
